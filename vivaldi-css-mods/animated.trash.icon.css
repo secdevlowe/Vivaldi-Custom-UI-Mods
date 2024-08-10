@@ -1,0 +1,14 @@
+.toggle-trash:hover .trashicon-lid 
+{
+    transform: rotateZ(30deg) translate(-1px, -1px);
+   } 
+.toggle-trash.button-toolbar button svg path
+ {
+fill: white;
+stroke: white !important;
+}
+
+
+
+
+
