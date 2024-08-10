@@ -1,0 +1,84 @@
+/*   Adds Button's Animation */
+.UrlBar .toolbar-mainbar > .button-toolbar > button:hover
+ {
+border-radius: 50%; background: var(--colorAccentBgAlpha) !important;
+ transition: .3s ease-out !important;
+box-shadow: 1px 1px 3px 2px #00fa00 inset;
+}
+.UrlBar .toolbar-mainbar > .button-toolbar > button:hover:not(:active) :is(svg, img), .UrlBar .profile-popup > button:hover:not(:active) > img {transform: scale(1.3); transition: transform .15s ease-in-out !important;}
+.toolbar-extensions .ExtensionIcon--Hidden:hover {border-radius: 50%; background: transparent; transition: .3s ease-out !important;} 
+
+
+/* Color Minimize/Maximize Buttons */
+
+#browser.win .window-buttongroup 
+{stroke: #00fa00 !important;}
+
+
+.window-close:hover
+{
+border-radius: 50%; background: #00008f !important;
+box-shadow: 1px 1px 10px 1px black inset !important;
+background-color: #00fa00 !important; 
+/*border-left: 3px solid #00fa00 !important;*/
+}
+
+.window-minimize:hover
+{
+border-radius: 50%; background: #00008f !important;
+box-shadow: 1px 1px 10px 1px black inset !important;
+background-color: #00fa00 !important; 
+/*border: 2px outset #00fa00 !important;*/ 
+}
+
+
+
+.window-maximize:hover 
+{
+border-radius: 50%; background: #00008f !important;
+box-shadow: 1px 1px 10px 1px black inset !important;
+background-color: #00fa00 !important; 
+ }
+
+
+/*Smaller Window Icons. Max , Min , Close */ 
+#browser.win .window-buttongroup button.window-close{width:36px !important;}
+#browser.win .window-buttongroup button.window-minimize{width:36px !important;}
+#browser.win .window-buttongroup button.window-maximize{width:36px !important;}
+
+/* test size min max buttons */
+.window-close svg {
+  height: 14px;
+  width: 14px;
+  margin-top: 3px;
+}
+
+/*  test size min max buttons */
+.window-minimize svg {
+  height: 10px;
+  width: 10px;
+  margin-top: 3px;
+}
+
+/* test size min max buttons */
+.window-maximize svg {
+  height: 10px;
+  width: 10px;
+  margin-top: 3px;
+}
+
+
+/* Vivaldi Button */
+
+button.vivaldi {
+stroke: #00fa00; 
+border-radius: 25%; background: black; 
+border: 3px solid #00fa00;
+}
+
+button.vivaldi:hover 
+{
+stroke: black;
+border-radius: 50%; background: black;
+border: 4px solid #00fa00;
+}
